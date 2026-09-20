@@ -1,0 +1,20 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Secrets & Local Config
+.env
+*.key
+
+# Generated Output / Reports
+reports/*.pdf
+reports/*.md
+reports/*.csv
+*.log
+
+# Python Caches
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
